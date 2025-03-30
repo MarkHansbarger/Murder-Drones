@@ -44,3 +44,8 @@ body {
 #title-ind { /* link back to title slide */
     font-size: 70px;
 }
+
+#n-image {
+    width: 1404px;
+    height: 2208px;
+}
