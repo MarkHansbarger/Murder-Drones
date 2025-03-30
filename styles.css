@@ -35,11 +35,28 @@ h2 {
     font-family: "Winky Sans", sans-serif;
 }
 
-#uzi-image {
-    width: 1000px;
-    height: 1333px;
+#UZI {
+    width: 200px;
+    height: 600px;
 }
 
 #my-list {
     font-size: 35px
+}
+
+.centered {
+    display: block;            /* Makes the image a block-level element */
+    margin-left: auto;         /* Auto margin on the left side */
+    margin-right: auto;        /* Auto margin on the right side */
+    text-align: center;        /* For text inside, though it's not necessary for images */
+}
+
+.centered-list { /* centers list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: block; /* Make the list a block element */
+    width: fit-content; /* Ensures the list only takes as much space as its content */
+    margin-left: auto; /* Automatically adjust left margin */
+    margin-right: auto; /* Automatically adjust right margin */
+    text-align: center; /* Optional: Center the text inside the list items */
 }
