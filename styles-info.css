@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+#info-words {
+    color: white;
+    font-size: 150px;
+}
+
+.centered { /*Centered code copied from styles.css */
+    display: block;            /* Makes the image a block-level element */
+    margin-left: auto;         /* Auto margin on the left side */
+    margin-right: auto;        /* Auto margin on the right side */
+    text-align: center;        /* For text inside, though it's not necessary for images */
+}
+
+#releases {
+    color: white;
+    font-size: 70px;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+}
+
+#sources {
+    color: pink;
+    font-size: 60px;
+}
