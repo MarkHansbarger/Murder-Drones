@@ -1,0 +1,46 @@
+.marquee-text {
+    font-size: 20px;
+    color: white;
+    white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    right: 0; /* Ensures it starts from the right edge */
+    left: 0;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Starts at the right edge (off-screen) */
+  }
+  100% {
+    transform: translateX(-100%); /* Ends at the left edge (off-screen) */
+  }
+}
+
+body {
+    background-color: black;
+}
+
+#my-list {
+    font-size: 35px;
+    color: white;
+}
+
+#title-j {
+    color: pink;
+    font-family: "Winky Sans", sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.centered { /*copied from styles.css*/
+    display: block;            /* Makes the image a block-level element */
+    margin-left: auto;         /* Auto margin on the left side */
+    margin-right: auto;        /* Auto margin on the right side */
+    text-align: center;        /* For text inside, though it's not necessary for images */
+}
+
+#title-ind { /* link back to title slide */
+    font-size: 70px;
+}
