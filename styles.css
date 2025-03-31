@@ -60,3 +60,7 @@ h2 {
     margin-right: auto; /* Automatically adjust right margin */
     text-align: center; /* Optional: Center the text inside the list items */
 }
+
+.v {
+  color: purple;
+}
